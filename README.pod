@@ -1,0 +1,15 @@
+=pod
+
+=encoding utf-8
+
+=head1 Заново синхронизировать свой форк с источником
+
+L<http://stackoverflow.com/questions/9646167/clean-up-a-fork-and-restart-it-from-the-upstream>
+
+  git remote add upstream /url/to/original/repo
+  git fetch upstream
+  git checkout master
+  git reset --hard upstream/master  
+  git push origin master --force 
+
+=cut
