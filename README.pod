@@ -18,4 +18,9 @@ L<https://ariejan.net/2011/07/05/git-squash-your-latests-commits-into-one/>
 
 Внимательно! порядок отображения коммитов (git rebase ...) меняется. Самый ранний (верхний) оставить pick, другие - squash
 
+=head1 Tarball репы
+
+   https://github.com/mche/репа/archive/master.tar.gz
+
+
 =cut
