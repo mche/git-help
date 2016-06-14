@@ -12,4 +12,10 @@ L<http://stackoverflow.com/questions/9646167/clean-up-a-fork-and-restart-it-from
   git reset --hard upstream/master  
   git push origin master --force 
 
+=head1 Слиять коммиты в один
+
+L<https://ariejan.net/2011/07/05/git-squash-your-latests-commits-into-one/>
+
+Внимательно! порядок отображения коммитов (git rebase ...) меняется. Самый ранний (верхний) оставить pick, другие - squash
+
 =cut
